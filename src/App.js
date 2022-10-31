@@ -1,6 +1,6 @@
 /* eslint react-hooks/exhaustive-deps: off*/
 import React, { useEffect, useState } from "react";
-
+// !test!
 import ColorfulMessage from "./components/ColorfulMessage";
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
 
   const styleCase1 = {
     color: "blue",
-    fontSize: "2.0rem"
+    fontSize: "2.0rem",
   };
 
   useEffect(() => {
